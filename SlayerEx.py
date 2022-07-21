@@ -55,4 +55,4 @@ def run():
 				s.sendto(data,addr)
 			print(i +" Attack!!!")
 		except:
-			print("[!] Down!!!")
+			print(" [!] Down!!!")
