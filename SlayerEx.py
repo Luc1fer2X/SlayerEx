@@ -54,9 +54,8 @@ def run():
 			for x in range(times):
 				s.sendto(data,addr)
 			print(i +" Attack!!!")
-				except:
-				s.close()
-			print("[!] Error!!!")
+		except:
+			print("[!] !!!")
 			
 for y in range(threads):
 	if choice == 'y':
