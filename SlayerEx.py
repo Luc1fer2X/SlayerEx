@@ -55,6 +55,7 @@ def run():
 				s.sendto(data,addr)
 			print(i +" Attack!!!")
 				except:
+				s.close()
 			print("[!] Error!!!")
 			
 for y in range(threads):
