@@ -2,9 +2,11 @@
 import random
 import socket
 import threading
-import os
 import time
-import sys
+import os,sys
+import random, socket, threading
+import os
+import getpass
 
 os.system("clear")
 print('''
